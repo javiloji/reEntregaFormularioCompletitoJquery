@@ -1,0 +1,29 @@
+
+#formulario>div{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#botones *{
+    margin-right: 20px;
+}
+
+#divRadio{
+    grid-template-columns: min-content;
+
+}
+
+span{
+    color: red;
+}
+
+.valido{
+    border-color: 2px solid green;
+    background-color: lightgreen;
+}
+
+.error{
+    border-color: 2px solid red;
+    background-color: lightcoral;
+}

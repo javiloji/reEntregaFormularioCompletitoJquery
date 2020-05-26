@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/validar.js"></script>
+    <script src="js/main.js"></script>
+    <title>Javier Lopera Jimenez</title>
+</head>
+
+<body>
+    <noscript>
+        <h1>Esta pagina necesita activar el contenido JavaScript</h1>
+    </noscript>
+    <h1>Formulario Completito</h1>
+    <h2>Javier Lopera Jiménez</h2><br>
+
+    <form id="formulario">
+        <div>
+            <label for="comprobarTexto">Obligatoriedad texto: </label>
+            <input id="comprobarTexto" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarCheckbox">Obligatoriedad checkbox: </label>
+            <input type="checkbox" id="comprobarCheckbox" value="first_checkbox">
+            <span></span>
+        </div>
+
+        <div>
+            <label>Obligatoriedad radio Button:</label>
+
+            <div>
+                <label for="radio1">Opción 1</label>
+                <input type="radio" id="radio1" name="radio" value="Opción 1">
+            </div>
+
+            <div>
+                <label for="radio2">Opción 2</label>
+                <input type="radio" id="radio2" name="radio" value="Opción 2">
+            </div>
+
+            <div>
+                <label for="radio4">Opción 4</label>
+                <input type="radio" id="radio4" name="radio" value="Opción 4">
+            </div>
+
+            <div>
+                <label for="radio3">Opción 3</label>
+                <input type="radio" id="radio3" name="radio" value="Opción 3">
+            </div>
+            <span></span>
+        </div>
+
+        <div>
+            <label for="select">Select: </label>
+            <select id="select" name="select">
+                <option value="">Elija una opción</option>
+                <option value="value1">Value 1</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+            </select>
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarNumero">Obligatoriedad Número: </label>
+            <input id="comprobarNumero" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarCorreo">Dirección de correo: </label>
+            <input id="comprobarCorreo" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarDni">Dni: </label>
+            <input id="comprobarDni" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarFechaNacimiento">Fecha: </label>
+            <input id="comprobarFechaNacimiento" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarTelefono">Número Teléfono: </label>
+            <input id="comprobarTelefono" type="text">
+            <span></span>
+        </div>
+
+        <div>
+            <label for="comprobarUrl">URL: </label>
+            <input id="comprobarUrl" type="text">
+            <span></span> 
+        </div>
+
+        <div id="botones">
+            <button type="submit">Enviar</button>
+            <button id="rellenar">Rellenar</button>
+            <button value="Limpiar" type="reset">Vaciar</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
