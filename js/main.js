@@ -35,7 +35,6 @@ $(function () {
             }
             else {
                 if (!rellenaSpam($(this))) {
-                    $(this).removeClass("error");
                     $(this).addClass("valido");
                 }
                 else
