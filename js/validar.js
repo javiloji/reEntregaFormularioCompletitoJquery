@@ -66,11 +66,10 @@ validar = (function () {
 
     // Comprueba que el radio Button no quede vacio
 
-    let comprobarRadio = function (opciones) {
+    let comprobarRadio = function (name) {
 
-        if(!Array.from(opciones).some(elemento => (elemento.checked))){
+        if($('input:radio[name='+name+']:checked').length == 0)
             return "Debes seleccionar alguna opción";
-        }
         return "";
     }
 

@@ -17,7 +17,7 @@ $(function () {
             // alert(mensaje);
         }
         else if ($control.prop("type") === "radio") {
-            let mensaje = validar.comprobarRadio(document.getElementsByName("radio"));
+            let mensaje = validar.comprobarRadio("radio");
             $control.parent().parent().children("span").text(mensaje);
         }
         else {
@@ -72,6 +72,7 @@ $(function () {
     $("#rellenar")
         .click(function (event) {
 
+            $("#radio1").checked;
             $("#comprobarTexto").val("Hola");
             $("#comprobarNumero").val("98");
             $("#comprobarCorreo").val("javiLoji@gmail.com");
