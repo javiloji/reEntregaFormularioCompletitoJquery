@@ -11,10 +11,8 @@ $(function () {
 
         // comprobar el checkbox
         if ($control[0] == $(":checkbox")[0]) {
-            // alert("a");
             let mensaje = validar.comprobarCheckbox($control);
             $control.next().text(mensaje);
-            // alert(mensaje);
         }
         else if ($control.prop("type") === "radio") {
             let mensaje = validar.comprobarRadio("radio");
