@@ -18,7 +18,7 @@ validar = (function () {
         arrayNumero: [new RegExp("^[0-9]+$"), "Se debe escribir un número entero"],
         arrayFecha: [new RegExp("^([0-9]{2})([/-])([0-9]{2})\\2([0-9]{4})$"), "Introduce un formato válido, '22/12/2222' o '29-02-2000'"],
         arrayDni: [new RegExp("^([0-9]{8})[- ]?([a-zA-Z])$"), "12345678Z o 12345678-Z", "TRWAGMYFPDXBNJZSQVHLCKET"],
-        arrayCorreo: [new RegExp("^([0-9a-zA-Z]+[.]?)*[@][0-9a-zA-Z]+[.][a-zA-Z]+$"), "Se debe poner el correo correctamente"],
+        arrayCorreo: [new RegExp("^([0-9a-zA-Z]+[.]?)+[@][0-9a-zA-Z]+[.][a-zA-Z]+$"), "Se debe poner el correo correctamente"],
         arrayTelefono: [new RegExp("^\\(?[+]?[0-9]?[0-9]?[0-9]?[0-9]?\\)?[ ]?[0-9]{3}[ ]?[0-9]{3}[ ]?[0-9]{3}[ ]?$"), "Introduce un número válido"],
         arrayUrl: [new RegExp("^(http[s]?[:][/][/])?(www[.])?[a-zA-Z]+([.][a-zA-Z]+([/][a-zA-Z0-9]+)*)*$"), "Se debe poner la url correctamente"],
     }
