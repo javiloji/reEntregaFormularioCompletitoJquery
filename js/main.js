@@ -78,7 +78,8 @@ $(function () {
             $("#comprobarFechaNacimiento").val("29/02/2000");
             $("#comprobarTelefono").val("658542122");
             $("#comprobarUrl").val("https://amazon.com");
-
+            $("input,select").removeClass("error");
+            $("span").text("");
             event.preventDefault();
 
         })
